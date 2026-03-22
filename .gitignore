@@ -1,0 +1,10 @@
+# Build artifacts
+builds/
+build/
+dist/
+__pycache__/
+*.pyc
+
+# Keep builds/ folder but ignore the zips in git (they're large)
+builds/*.zip
+builds/*.exe
